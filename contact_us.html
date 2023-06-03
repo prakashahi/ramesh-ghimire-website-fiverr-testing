@@ -52,24 +52,24 @@
         </div>
         <div class="row contact_row flex">
           <div class="left_column">
-            <form class="contact_us_form" action="#">
+            <form class="contact_us_form" action="sent_message.html">
               <div class="input_field">
                 <label>E-mail</label>
-                <input type="email" placeholder="ola.ola@gmail.com" id="email_input" />
+                <input type="email" placeholder="ola.ola@gmail.com" id="email_input" required />
               </div>
               <div class="input_field">
                 <label>First Name</label>
-                <input type="email" placeholder="Ola" />
+                <input type="text" placeholder="Ola" required />
               </div>
               <div class="input_field">
                 <label>Last Name</label>
-                <input type="email" placeholder="Ola" />
+                <input type="text" placeholder="Ola" required />
               </div>
               <div class="input_field">
                 <label>Message</label>
-                <textarea placeholder="Message"></textarea>
+                <textarea required placeholder="Message"></textarea>
               </div>
-              <a href="sent_message.html" class="button">Send Message &rarr;</a>
+              <button class="button">Send Message &rarr;</button>
             </form>
           </div>
           <div class="right_column">
@@ -98,7 +98,7 @@
           </div>
 
           <div class="right_column">
-            <div class="contact_us_map map">
+            <div class="contact_us_map map contact_map">
               <img src="images/map.jpg" alt="map" />
             </div>
           </div>
