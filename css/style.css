@@ -687,23 +687,18 @@ form {
   grid-template-rows: repeat(2, 300px);
 }
 .about_us_data {
-  height: 60%;
+  height: 77%;
   width: 60%;
+  background: url("../images/about_us_home_bg.svg");
   top: 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
   text-align: right;
+  background-repeat: no-repeat;
   border-radius: var(--border-radius-6);
   padding: 30px;
-}
-.about_us_data.gradient_bg {
-  background: none;
-}
-.about_us_data::before {
-  background: var(--main-color);
-  opacity: 0.8;
 }
 .about_us_data h6,
 .about_us_data p {
